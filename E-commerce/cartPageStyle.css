@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 140vh;
+    font-family: 'Chau Philomene One';
+}
+
+.top-bar {
+height: 10vh;
+width: 100%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.top-bar .logo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.top-bar .logo p {
+    font-size: 20px;
+}
+
+.top-bar .search-container {
+    position: relative;
+}
+
+.top-bar .search-container .search-input {
+    height: 40px;
+    width: 290px;
+    border: none;
+    background-color: rgba(119, 73, 248, 0.15);
+    border-radius: 5px;
+}
+
+.top-bar .search-container .search-input::placeholder  {
+    font-size: 16px;
+    padding-left: 45px;
+}
+
+.top-bar .search-container #searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    font-size: 21px;
+    color: rgba(52, 58, 64, 0.5);
+}
+
+.top-bar .cart-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid;
+    border-color: rgba(52, 58, 64, 0.12);
+}
+
+.footer .logo {
+    width: 15%;
+}
+
+.footer .our-pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .our-pages  {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer .contact-us  {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.block {
+    height: 90vh;
+    /* background-color: red; */
+}
+
+.shopping-cart {
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.checkout {
+    width: 50%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout .actual {
+    width: 85%;
+    height: 80%;
+    /* background-color: red; */
+    border: 1px solid rgba(235, 235, 235, 1);
+}
+
+.checkout .actual .div p {
+    font-size: 20px;
+    
+}
+
+.checkout .actual .div {
+    height: 10%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
